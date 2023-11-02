@@ -1,0 +1,23 @@
+
+//InputField
+export const ON_INPUT_FIELD_CHANGE = "ON_INPUT_FIELD_CHANGE";
+
+//INSIGHT List
+export const GET_INSIGHT_LISTS = "GET_KEY_LISTS";
+export const INSIGHT_API_SUCCESS = "KEYLIST_API_SUCCESS";
+export const INSIGHT_API_FAILED = "KEYLIST_API_FAILED";
+
+//Graph List
+export const GET_GRAPH_LISTS = "GET_KEY_LISTS";
+export const GRAPH_API_SUCCESS = "KEYLIST_API_SUCCESS";
+export const GRAPH_API_FAILED = "KEYLIST_API_FAILED";
+
+//Map List
+export const GET_MAP_LISTS = "GET_KEY_LISTS";
+export const MAP_API_SUCCESS = "KEYLIST_API_SUCCESS";
+export const MAP_API_FAILED = "KEYLIST_API_FAILED";
+
+//Topics List
+export const GET_TOPICS_LISTS = "GET_KEY_LISTS";
+export const TOPICS_API_SUCCESS = "KEYLIST_API_SUCCESS";
+export const TOPICS_API_FAILED = "KEYLIST_API_FAILED";

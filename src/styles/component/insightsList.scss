@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap");
+
+:root {
+  --dark: #1e2329;
+  --light: #fafafa;
+  --success: #03a66d;
+  --danger: #cf304a;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.name,
+.loading-text {
+  color: var(--light);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fullname {
+  color: #b6b6b6;
+  font-size: 14px;
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #949191;
+  margin: 10px;
+}
+
+//.item:first-child {
+  //padding-top: 0px;
+//}
+
+//.item:last-child {
+ // padding-bottom: 0px;
+  //border-bottom: 0px;
+//}
+
+.container {
+  background-color:  linear-gradient(#3a3a74, #5f728f) !important;
+  padding: 20px;
+  border-radius: 12px;
+  //margin-top: 170px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+}
+.name a{
+    text-decoration: none;
+}
+.name a.danger {
+  color: var(--danger);
+}
+
+.name a.success {
+  color: var(--success);
+}
+.company-header{
+    padding: 2px 5px;
+    background-image: linear-gradient(#4859DC, #A230B3);
+      color: white;
+      font-size: 20px;
+      margin-top: 202px;
+      width: 365px;
+      height: 30px !important;
+      border-radius: 3px;
+}

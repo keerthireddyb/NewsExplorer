@@ -1,0 +1,6 @@
+{
+    "OAUTH_URL": "https://login.microsoftonline.com/organizations",
+    "CLIENT_ID": "c78956d6-b8fc-4f65-86ad-1a88e1da825a",
+    "API_URL": "https://translationtool-api.bswhive.com",
+    "EXPORT_TYPE": "tsx"
+}
